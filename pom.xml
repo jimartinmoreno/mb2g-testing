@@ -115,7 +115,6 @@
                             <outputDirectory>${project.reporting.outputDirectory}/jacoco-ut</outputDirectory>
                         </configuration>
                     </execution>
-
                     <!--
                         Prepares the property pointing to the JaCoCo runtime agent which
                         is passed as VM argument when Maven the Failsafe plugin is executed.
@@ -155,16 +154,13 @@
                     </execution>
                 </executions>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.7.1</version>
             </plugin>
-
         </plugins>
     </build>
-
     <reporting>
         <plugins>
             <plugin>
