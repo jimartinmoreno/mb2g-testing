@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
-public class JUnit5FauxTest {
+public class JUnit5TestIT {
 
     @Test
     void someTestforJUnit5() {

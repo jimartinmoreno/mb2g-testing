@@ -6,6 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class JavaHelloWorldTest {
 
+
     @Test
     public void getHello() {
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
